@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Candara, sans-serif;
+    background-color: #eeeef1;
+  }
+
+  .navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+      justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+            border: 0px solid red;
+  }
+
+  .navbar-logo img {
+    width: 70px;
+    margin-right: 20px;
+            border: 0px solid red;
+      float: left;
+  }
+
+  .topnav {
+    color: #fff; 
+  text-decoration: none;
+      display: flex;
+      overflow: inherit;
+      text-align: left;
+      padding: 25px;
+      float: left;
+      border: 0px solid red;
+      margin-left: 5px;
+  }
+
+  .topnav a {
+    color: white;
+    text-decoration: none;
+      margin-left: 25px;
+    transition: background-color 0.3s ease;
+  }
+
+.topnav :left{
+    float: left;
+}
+
+  .topnav a:hover {
+    background-color: #555;
+      text-decoration: underline;
+  }
+h1{
+    font-family: Lucida Calligraphy;
+    font-size: 5em;
+    margin-top: 35px;
+    margin-left: 250px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+table{
+    width: 80%;
+    border: 0px solid red;
+    margin: auto;
+}
+
+
+ img{
+    width: 320px;
+    float: center;
+}
+.decora img{
+    width: 300px;
+    float: center;
+    margin: center;
+    border: 0px solid red;
+    margin-top: -20px;
+}
+button{
+    background-color: #a58c47;
+    color: white;
+    cursor: pointer;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 0px;
+    margin-top: -100px;
+    
+}
+button :hover{
+   color: #a58c47;
+    background-color: white;
+}
+.back img{
+    position: absolute;
+    margin-top: -599px;
+    margin-left: 40px;
+    width: 35px;
+}
