@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Candara, sans-serif;
+    background-color: #eeeef1;
+  }
+
+  .navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+      justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+            border: 0px solid red;
+  }
+
+  .navbar-logo img {
+    width: 70px;
+    margin-right: 20px;
+            border: 0px solid red;
+      float: left;
+  }
+
+  .topnav {
+    color: #fff; 
+  text-decoration: none;
+      display: flex;
+      overflow: inherit;
+      text-align: left;
+      padding: 25px;
+      float: left;
+      border: 0px solid red;
+      margin-left: 5px;
+  }
+
+  .topnav a {
+    color: white;
+    text-decoration: none;
+      margin-left: 25px;
+    transition: background-color 0.3s ease;
+  }
+
+.topnav :left{
+    float: left;
+}
+
+  .topnav a:hover {
+    background-color: #555;
+      text-decoration: underline;
+  }
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+
+form h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: gainsboro;
+}
+p{
+    font-size: 10px;
+    float: center;
+    color: #007bff;
+}
