@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+        <meta content="width=device-width,initial-scale=1.0">
+        <title>Smilody Music</title>
+          <link rel="stylesheet"
+              type="text/css"
+              href="css/login.css">
+    <style>
+            body{background-image: url(image/bg02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        background-attachment: fixed;}
+        </style>
+    </head>
+<body>
+     <div class="navbar">
+  <div class="navbar-logo">
+    <img class="logo" alt="logoSmilody" src="image/Web%20logo%20white.png" >
+      <div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="event.html">Event</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  </div>
+</div>
+    <div class="form-container">
+        <form action="/submit" method="post">
+            <h2>LOG IN ACCOUNT</h2>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password" required>
+
+            <button type="submit">Log In</button>
+            <p>Don't have account? Register</p>
+        </form>
+    </div>
+    </body>
+</html>
